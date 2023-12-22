@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
+
   @override
-  Widget build(context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('App Chat'),
+        title: const Text('FlutterChat'),
       ),
       body: const Center(
-        child: CircularProgressIndicator(),
+        child: Text('Loading...'),
       ),
     );
   }
